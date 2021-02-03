@@ -1,0 +1,33 @@
+$color-producto:#fdadc4;
+$color-tarjeta:#6e85e6;
+$color-mp: #da0fd2;
+$color-descripcion: linear-gradient(#FFB56B, #8DFE3F);
+$palabra-clave: efectivo;
+
+
+.producto{
+    color:$color-producto;
+}
+.billete{
+@if $palabra-clave==efectivo {color:green
+}
+}
+.tarjeta{
+    color: $color-tarjeta;
+}
+.mp{
+    color: $color-mp;
+}
+.descripcion{
+    color: $color-descripcion;
+}
+.opciones {
+    color: black;
+    font-family: cursive;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    display: inline;
+    background-image: linear-gradient(#FFB56B, #8DFE3F);
+    width: 100%; }
