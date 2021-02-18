@@ -1,0 +1,9 @@
+h1 {
+  font: cursive;
+  /* Uso la variable*/
+  color: red; }
+
+div {
+  color: red;
+  background: #fff;
+  width: 100%; }

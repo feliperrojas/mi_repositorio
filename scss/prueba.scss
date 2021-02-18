@@ -1,0 +1,12 @@
+$title-font: cursive;
+$cool-red:red;
+h1 {
+ 	font: $title-font; /* Uso la variable*/
+ color: $cool-red;
+}
+
+div {
+ color: $cool-red;
+ background: #fff;
+ width: 100%;
+}

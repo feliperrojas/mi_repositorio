@@ -1,0 +1,38 @@
+.producto {
+  color: #fdadc4; }
+
+.billete {
+  color: #68ab23; }
+
+.tarjeta {
+  color: #6e85e6; }
+
+.mp {
+  color: #da0fd2; }
+
+.descripcion {
+  color: linear-gradient(#FFB56B, #8DFE3F); }
+
+.opciones {
+  color: black;
+  font-family: cursive;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  display: inline;
+  background-image: linear-gradient(#FFB56B, #8DFE3F);
+  width: 100%; }
+
+  footer {
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: solid 5px black;
+    padding: 5px;
+    display: inline-block;
+    display: grid;
+    grid-template-rows: 25px;
+    justify-content: end; 
+    background-image: linear-gradient(pink,#ECC1FC);
+  }

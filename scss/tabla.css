@@ -1,0 +1,39 @@
+.producto {
+  color: #fdadc4;
+}
+
+.billete {
+  color: green;
+}
+
+.tarjeta {
+  color: #6e85e6;
+}
+
+.mp {
+  color: #da0fd2;
+}
+
+.descripcion {
+  color: linear-gradient(#FFB56B, #8DFE3F);
+}
+
+.opciones {
+  color: black;
+  font-family: cursive;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: inline;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFB56B), to(#8DFE3F));
+  background-image: linear-gradient(#FFB56B, #8DFE3F);
+  width: 100%;
+}
+/*# sourceMappingURL=tabla.css.map */
